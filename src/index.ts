@@ -27,3 +27,4 @@ const decrypt = (ciphertext: string, priKey: string) => {
 };
 
 export { encrypt, decrypt };
+export default { encrypt, decrypt };
