@@ -1,0 +1,33 @@
+{
+  "name": "@instance-oom/ecc",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "unbuild"
+  },
+  "main": "./lib/index.cjs",
+  "module": "./lib/index.mjs",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.mjs",
+      "require": "./lib/index.cjs"
+    }
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "big-integer": "^1.6.52",
+    "js-base64": "^3.7.7"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "unbuild": "^2.0.0"
+  }
+}
